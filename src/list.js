@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from './card';
-import STORE from './store';
 
 //map through array of cards 
 
@@ -16,7 +15,7 @@ export default class List extends React.Component {
         <header className="List-header">
           <h2>{this.props.header}</h2>
         </header>
-        <div class="List-cards">
+        <div className="List-cards">
           {elementsArray}
         </div>
       </section>

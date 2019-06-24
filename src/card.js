@@ -1,9 +1,6 @@
 import React from 'react';
 class Card extends React.Component {
     render (){
-        console.log(this.props.title);
-        console.log(this.props);
-
         return (
 
            <div className="Card">
